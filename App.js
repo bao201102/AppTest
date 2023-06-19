@@ -57,7 +57,7 @@ export default function App() {
         imageStyle={styles.backgroundImage}
       >
         <SafeAreaView style={styles.rootScreen}>
-          <StatusBar style="auto" />
+          <StatusBar style="light" />
           {screen}
         </SafeAreaView>
       </ImageBackground>
